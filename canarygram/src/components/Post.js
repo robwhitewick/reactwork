@@ -1,15 +1,15 @@
 
 function Post({image, name}) {
 
-    const handleClick = (otterName) => {
-        return console.log('You clicked ' + otterName)
+    const handleClick = (canaryName) => {
+        return window.alert('You clicked ' + canaryName)
     }
     
-    const mouseEnter = (otterName) => {
-        return console.log('Hello, ' + otterName)
+    const mouseEnter = (canaryName) => {
+        return console.log('Hello, ' + canaryName)
     }
-    const mouseExit = (otterName) => {
-        return console.log('Goodbye, ' + otterName)
+    const mouseExit = (canaryName) => {
+        return console.log('Goodbye, ' + canaryName)
     }
 
     return (
